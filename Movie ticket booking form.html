@@ -6,35 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Ticket</title>
 </head>
+<style>
+    p{
+        color: rgb(14, 12, 16);
+        text-align: center;
+        background-color: rgb(120, 169, 140);
+        width: 100;
+        line-height-step: 300;
+    }
+body{
+    background-color: bisque;
+    text-align: center;
+    font-size: xx-large;
+}
+</style>
 
 <body>
-    <h1 style="text-align: center;">Movie Ticket booking form </h1>
-    <img src="https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1554920595140-FZRRT7VK1QEE3P1HDUXW/image-asset.jpeg"
-        alt="" width="400">
-        <video src="https://assets.mixkit.co/videos/33312/33312-720.mp4" width="400" loop autoplay></video>
-    <br>
-    <br><label> Movie Title </label>
-    <input type="text"> <br>
-    
+    <h1 style="text-align: center; color: black; background-color: dimgrey; font-size: xx-large; font-style: oblique; font-size: 80; " >Movie Ticket booking form </h1> <br><br>
 
-    <label> Date you want to attend </label>
-    <input type="date">
-    <label> show time</label>
+
+<img style=" text-align: center;" src="https://tourismquest.com/wp-content/uploads/2023/05/BookMyShow-Logo.jpg" alt="" width="1500"  >
+    
+    
+    
+  <p>
+    <!-- <label> Movie Title: </label> -->
+    <!-- <input type="text"> <br> -->
+     <label >Select Movie</label>
+     <select >
+        <option > Stree 2</option>
+        <option > Munjya</option>
+        <option > Jawan</option>
+        <option > Vedaa</option>
+        <option > Laila Majnu</option>
+        <option >Rockstar</option>
+        <option > Drishyam 2</option>
+     </select> <br>
+      <label > Movie type </label>
+      <input type="radio" name="movie type">2D
+      <input type="radio" name="movie type">3D 
+     
+
+<br>
+    <label> Date you want to attend: </label>
+    <input type="date"><br>
+    <label> show time:  </label>
     <input type="time">
-    
+
     <br>
-    
-    
-    <label> No. of adults</label>
-    <input type="number">
-    <label>No. of children</label>
+
+
+    <label> No. of adults:  </label>
+    <input type="number"> <br>
+    <label>No. of children:  </label>
     <input type=" number"><br><br>
-    <label> Email adress </label>
+    <label >Mobile Number</label>
+    <input type=" number"minlength=10> <br>
+    <label> Email adress:  </label>
     <input type=" email" required><br><br>
-    <input type="checkbox" required >
-    <label>Iam not a robot</label><br><br>
+<label>Payment Method</label>
+<select>
+    <option > Net Banking</option>
+    <option > Credit card</option>
+    <option > UPI App </option>
+<option > Cash</option>
+</select> <br>
+
+
+    <input type="checkbox" required>
+    <label>Iam not a robot </label><br><br>
 
     <button>submit</button>
+  </p>
 
 </body>
 
