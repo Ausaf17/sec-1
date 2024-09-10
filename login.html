@@ -24,6 +24,7 @@
             border-radius: 10px;
             padding: 30px;
             box-sizing: border-box;
+            background-color: #fdfdfde2;
         }
 
         body {
@@ -31,24 +32,61 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-image: url(https://wallpaperaccess.com/full/1373279.png);
         }
 
         .form-title {
             text-align: center;
             font-family: Roboto;
+            font-size: 40px;
         }
+        .text-input{
+           
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 20px;
+            border: 1px solid rgb(23, 97, 2);
+            background-color: ;
+            border-bottom: 2px solid #210a0e ;
+            background-color: rgb(168, 249, 166);
+            outline: none;
+        }
+        .submit-btn{
+            background-color: rgb(1, 82, 7);
+            color: white;
+            padding: 5px;
+            width: 100%;
+            margin-top: 20px;
+            border: none;
+        }
+        .link{
+            text-decoration: none;
+            color: #07581d;
+            font-weight: bold;
+        }
+        .link:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        
+
     </style>
 </head>
 
 <body>
     <div class="card">
-        <h3 class="form-title">Login Form</h3>
+        <h3 class="form-title">Login Form </h3>
         <form>
             <label>Email Adress</label>
-            <input type="text" class="text-input"><br>
+            <input type="text" class="text-input" placeholder=" Enter Email"> <br>
 
             <label>Password</label>
             <input type="password" class="text-input"><br>
+            <a href="#" class="link"> Forgot Password ? </a>
 
             <button class="submit-btn"> Submit</button>
         </form>
