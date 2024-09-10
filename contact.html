@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form </title>
+
+    <style>
+        .card {
+            box-shadow: 3px 3px 5px 10px black;
+            width: 30%;
+            border-radius: 10px;
+            padding: 30px;
+            box-sizing: border-box;
+            background-color: rgb(233, 219, 219);
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(https://static.vecteezy.com/system/resources/previews/006/852/804/original/abstract-blue-background-simple-design-for-your-website-free-vector.jpg);
+        }
+
+        .form-title {
+            font-family: Nerko One;
+            text-align: center;
+            font-size: 40px;
+            color: rgb(1, 1, 55);
+        }
+
+        .text-input {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 15px;
+            border: 1px solid;
+            border-bottom: 2px solid black;
+            outline: none;
+            background-color: rgb(245, 247, 248);
+
+
+
+        }
+        .submit-btn{
+            background-color: rgb(45, 45, 165);
+            color: white;
+            padding: 10px;
+            width: 100%;
+            margin-top: 50px;
+            border: none;
+            border-radius: 20px;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="card">
+        <h3 class="form-title"> Contact Us </h3>
+        <form>
+            <label>Name</label>
+            <input type="text" class="text-input" placeholder="Your Name">
+
+            <label> Mobile Number</label>
+            <input type="number" class="text-input" placeholder="10-Digit Mobile Number" minlength="10">
+
+            <label> Email</label>
+            <input type="email" class="text-input" placeholder=" Ex- xyz@gmail.com">
+
+            <label> Write your issue </label>
+            <textarea class="text-input" placeholder="write your issue here"></textarea>
+
+            <button class="submit-btn"> SUBMIT </button>
+
+
+        </form>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
